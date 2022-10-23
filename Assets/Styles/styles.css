@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url("menu.css");
+
+:root {
+    --background: #FFFFFF;
+    --cor-destaque: #8E2424;
+    --cor-fonte1: #101828;
+    --cor-fonte2: #667085;
+    --cor-fonte3: #FFFFFF;
+    --fonte-padrao: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1.5em 8em;
+}
