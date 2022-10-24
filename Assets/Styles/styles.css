@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
-@import url("menu.css");
+@import url(menu.css);
+@import url(cabecalho.css);
+@import url(estatisticas.css);
+@import url(vagas.css);
 
 :root {
     --background: #FFFFFF;
+    --background2: #f9f4f4;    ;
     --cor-destaque: #8E2424;
     --cor-fonte1: #101828;
     --cor-fonte2: #667085;
     --cor-fonte3: #FFFFFF;
+    --cor-borda: #EAECF0;
     --fonte-padrao: "Inter", sans-serif;
 }
 
@@ -16,4 +21,13 @@ body {
     font-size: 16px;
     font-weight: 400;
     padding: 1.5em 8em;
+}
+
+.termina {
+    border-top: solid 5px var(--cor-destaque);
+    margin: auto;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 20px;
+    color: var(--cor-destaque);
 }

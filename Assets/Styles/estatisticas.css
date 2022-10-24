@@ -1,0 +1,25 @@
+.estatisticas {
+    display: flex;
+}
+
+.estatisticas__container {
+    width: 25%;
+}
+
+.estatisticas__titulo {
+    color: var(--cor-destaque);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.estatisticas__subtitulo {
+    color: var(--cor-fonte1);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.estatisticas__texto {
+    color: var(--cor-fonte2);
+    margin-top: 10px;
+}

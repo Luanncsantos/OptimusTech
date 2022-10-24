@@ -1,0 +1,74 @@
+.vagas {
+    padding: 10em 0;
+}
+
+.vagas__procurando {
+    text-align: center;
+}
+
+.vagas__aviso {
+    background-color: var(--background2);
+    color: var(--cor-destaque);
+    font-size: 14px;
+    font-weight: 500;
+    width: 125px;
+    height: 20px;
+    border-radius: 16px;
+    margin: 10px auto;
+    padding-top: 5px;
+}
+
+.vagas__titulo {
+    color: var(--cor-fonte1);
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.vagas__texto {
+    color: var(--cor-fonte2);
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.vagas__imagem {
+    margin-top: 3em;
+    width: 100%;
+    height: 25em;
+}
+
+.vagas__container {
+    padding: 2em 20%;
+}
+
+.vagas__subtitulo {
+    color: var(--cor-fonte1);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.vagas__vaga {
+    border: solid 1px var(--cor-borda);
+    border-radius: 16px;
+    width: 100%;
+    height: 5em;
+    padding: 1.5em;
+    margin: 1.5em 0;
+}
+
+.vagas__vaga h4 {
+    color: var(--cor-fonte1);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.vagas__container-texto {
+    display: flex;
+    padding: 2.5em 0;
+}
+
+.vagas__container-texto p {
+    margin-right: 2em;
+    color: var(--cor-fonte2);
+    font-weight: 500;
+}
