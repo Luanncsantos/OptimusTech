@@ -2,10 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: var(--espaçamento-padrao);
 }
 
 .paginas {
-    margin-right: 10rem;
+    margin-right: 30%;
 }
 
 .lista__menu {

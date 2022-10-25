@@ -1,6 +1,6 @@
 .vagas {
     margin-top: 8em;
-    padding: 2em 0;
+    padding: var(--espaçamento-padrao);
 }
 
 .vagas__procurando {
@@ -33,9 +33,8 @@
 }
 
 .vagas__imagem {
-    margin-top: 3em;
+    margin: 3em 0;
     width: 100%;
-    height: 25em;
 }
 
 .vagas__container {

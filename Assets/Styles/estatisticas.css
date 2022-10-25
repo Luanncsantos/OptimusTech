@@ -1,9 +1,11 @@
 .estatisticas {
     display: flex;
+    padding: var(--espaçamento-padrao);
 }
 
 .estatisticas__container {
     width: 25%;
+    margin: 1em;
 }
 
 .estatisticas__titulo {

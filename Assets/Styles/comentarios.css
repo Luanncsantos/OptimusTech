@@ -4,7 +4,7 @@
     text-align: center;
     height: 20em;
     padding: 5em;
-    margin-bottom: 5em;
+    margin: var(--espaçamento-padrao);;
 }
 
 .comentarios__texto {

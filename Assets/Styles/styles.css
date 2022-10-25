@@ -17,13 +17,13 @@
     --cor-fonte4: #98A2B3;
     --cor-borda: #EAECF0;
     --fonte-padrao: "Inter", sans-serif;
+    --espaçamento-padrao: 1.5em 6em;
 }
 
 body {
-    box-sizing: border-box; 
     background-color: var(--background);
     font-family: var(--fonte-padrao);
     font-size: 16px;
     font-weight: 400;
-    padding: 1.5em 6em 0 6em;
+    /*padding: 1.5em 6em 0 6em;*/
 }
