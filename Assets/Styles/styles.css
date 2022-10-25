@@ -3,31 +3,27 @@
 @import url(cabecalho.css);
 @import url(estatisticas.css);
 @import url(vagas.css);
+@import url(comentarios.css);
+@import url(rodape.css);
 
 :root {
     --background: #FFFFFF;
-    --background2: #f9f4f4;    ;
+    --background2: #f9f4f4;
+    --background3: #F9FAFB;
     --cor-destaque: #8E2424;
     --cor-fonte1: #101828;
     --cor-fonte2: #667085;
     --cor-fonte3: #FFFFFF;
+    --cor-fonte4: #98A2B3;
     --cor-borda: #EAECF0;
     --fonte-padrao: "Inter", sans-serif;
 }
 
 body {
+    box-sizing: border-box; 
     background-color: var(--background);
     font-family: var(--fonte-padrao);
     font-size: 16px;
     font-weight: 400;
-    padding: 1.5em 8em;
-}
-
-.termina {
-    border-top: solid 5px var(--cor-destaque);
-    margin: auto;
-    text-align: center;
-    padding-top: 1em;
-    font-size: 20px;
-    color: var(--cor-destaque);
+    padding: 1.5em 6em 0 6em;
 }

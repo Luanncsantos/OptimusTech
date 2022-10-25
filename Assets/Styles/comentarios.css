@@ -1,0 +1,38 @@
+.comentarios {
+    background-color: var(--background2);
+    border-radius: 16px;
+    text-align: center;
+    height: 20em;
+    padding: 5em;
+    margin-bottom: 5em;
+}
+
+.comentarios__texto {
+    color: var(--cor-destaque);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.comentarios__titulo {
+    color: var(--cor-fonte1);
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.comentarios__imagem {
+    border-radius: 200px;
+    width: 5em;
+    height: 5em;
+    margin-top: 3em;
+}
+
+.comentarios__nome {
+    color: var(--cor-fonte1);
+    margin-top: 1em;
+}
+
+.comentarios__profissao {
+    color: var(--cor-fonte2);
+    margin-top: 1em;
+}
